@@ -122,6 +122,10 @@ These results also match the results of training on the imbalanced cifar50 datas
 | F1-score	| 0.6673	| 0.7382 |
 | Accuracy	| 69.65%	| 74.48% |
 
+# Conclusion: 
+
+The method of the weighted sampler combined with data augmentation is easy to implement and useful, especially in improving the accuracy of the minority classes. This method is not only limited to the cifar50 dataset. It can also be used in other imbalanced datasets like breast cancer dataset and there will be a quick improvement on the performance. To further improve the performance, some techniques like re-weighted loss, mixup and increasing learning rate linearly can be combined with this method. 
+
 
 
 # References
